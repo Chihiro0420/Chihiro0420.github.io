@@ -172,7 +172,9 @@ h1 {
 /* -------------------------------------
 Header
 ------------------------------------- */
-
+.l-header-wrapper {
+  background-color: #f7f2ee;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -222,7 +224,7 @@ nav ul li a:hover::after {
 Main
 ------------------------------------- */
 .l-wrapper {
-  margin-bottom: 2em;
+  margin: 6em;
 }
 
 .hero-img {

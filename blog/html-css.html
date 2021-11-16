@@ -13,57 +13,61 @@
   </head>
 
   <body>
-    <header class="header">
-      <h1>
-        <a href="./" class="logo">My Blog</a>
-      </h1>
-
-      <nav>
-        <ul>
-          <li><a href="./">Home</a></li>
-          <li><a href="#">Technical Blog</a></li>
-          <li><a href="#">Values</a></li>
-          <li><a href="#">Learning Plan</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="l-header-wrapper">
+      <header class="header">
+        <h1>
+          <a href="./" class="header-logo">My Blog</a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="blog/html-css.html">Technical Blog</a></li>
+            <li><a href="#">Values</a></li>
+            <li><a href="#">Learning Plan</a></li>
+            <li>
+              <a href="https://github.com/Chihiro0420"> <i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
 
     <!-- main -->
     <main>
-      <section class="l-wrapper-container">
-        <h2>What is the difference between Margin, Border, and Padding?</h2>
-        <p>
-          To understand the difference between margin and padding, it is important that you need to understand the box
-          model concept first.<br />
-          The point is that each HTML element is rendered in a browser as a box, that consists of four parts:
-        </p>
-      </section>
-
-      <section class="l-wrapper-container">
-        <h3>What is margin?</h3>
-        <p>
-          The margin is a transparent space outside the element that separates it from other elements. <br />Basically,
-          it pushes the element away from other elements.
-        </p>
-      </section>
-
-      <section class="l-wrapper-container">
-        <h3>What is padding?</h3>
-        <p>
-          The padding is the space between the actual content and the border of the element. It will have any
-          background-color or backgorund-image property that has been applied to an element.
-        </p>
-      </section>
-
-      <section class="l-wrapper-container">
-        <h3>What is border?</h3>
-        <p>
-          Around every element's box is a border separating it from other elements on the page whether you see it or
-          not. The border is the element's edge that surrounds the content and padding. <br />You can control the
-          border's width, style, and color of any side of the element but you must set a value for each or the border
-          won't appear.
-        </p>
-      </section>
+      <div class="l-wrapper">
+        <section class="l-wrapper-container">
+          <h2>What is the difference between Margin, Border, and Padding?</h2>
+          <p>
+            To understand the difference of margin, padding and border, it is important that you need to understand the
+            box model concept first.<br />
+            The point is that each HTML element is rendered in a browser as a box, that consists of four parts:
+          </p>
+          <img class="border-img" src="../img/box-model.png" alt="box model" />
+        </section>
+        <section class="l-wrapper-container">
+          <h3>What is margin?</h3>
+          <p>
+            The margin is a transparent space outside the element that separates it from other elements.
+            <br />Basically, it pushes the element away from other elements.
+          </p>
+        </section>
+        <section class="l-wrapper-container">
+          <h3>What is padding?</h3>
+          <p>
+            The padding is the space between the actual content and the border of the element. It will have any
+            background-color or backgorund-image property that has been applied to an element.
+          </p>
+        </section>
+        <section class="l-wrapper-container">
+          <h3>What is border?</h3>
+          <p>
+            Around every element's box is a border separating it from other elements on the page whether you see it or
+            not. The border is the element's edge that surrounds the content and padding. <br />You can control the
+            border's width, style, and color of any side of the element but you must set a value for each or the border
+            won't appear.
+          </p>
+        </section>
+      </div>
     </main>
 
     <footer>
