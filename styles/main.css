@@ -236,10 +236,29 @@ Main
 .primary-msg {
   text-align: center;
   margin: 2em;
-  font-size: 24px;
+  font-size: 1.5em;
+  position: relative;
+  padding: 1rem;
 }
+
+.primary-msg:before {
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 5px;
+  content: "";
+  border-radius: 3px;
+  background: #ceac92;
+}
+
 .l-wrapper-p {
   text-align: center;
+  max-width: 800px;
+  width: 70%;
+  margin: 1em auto;
+  display: block;
+  padding: 1em;
 }
 
 .l-wrapper-content {
