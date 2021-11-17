@@ -179,10 +179,8 @@ Header
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  max-width: 1000px;
-  width: 95%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 20px 60px;
 }
 
 .header-logo {
@@ -227,12 +225,6 @@ Main
   margin: 6em;
 }
 
-.hero-img {
-  text-align: center;
-  margin: 3em auto;
-  display: block;
-}
-
 .primary-msg {
   text-align: center;
   margin: 2em;
@@ -265,6 +257,26 @@ Main
   display: inline-block;
   text-align: left;
   line-height: 1.5em;
+}
+
+.content {
+  max-width: 1000px;
+  height: 698px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.text {
+  max-width: 680px;
+  background-color: #f7f2ee;
+  padding: 0 160px 84px 84px;
+  position: absolute;
+}
+.img {
+  max-width: 400px;
+  position: absolute;
+  top: 140px;
+  right: 20px;
 }
 
 /* -------------------------------------
