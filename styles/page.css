@@ -168,7 +168,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 1.5em;
 }
 
 h3 {
@@ -184,7 +184,7 @@ p {
   width: 80%;
   margin: 1em auto;
   display: block;
-  padding: 2em;
+  padding: 1em;
 }
 
 .border-img {
@@ -192,15 +192,46 @@ p {
   margin: 2em auto;
 }
 
+.l-wrapper-container h1 {
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  border-left: 4px solid #ceac92;
+  color: #ceac92;
+}
+
 .l-wrapper-container h2 {
   margin-bottom: 0.5em;
   padding: 0.5em;
-  border-left: 4px solid #c4bfbc;
+  border-left: 5px solid #ceac92;
+  background: #f4f4f4;
 }
 
-.l-wrapper-container h3 {
-  margin-bottom: 0.5em;
-  padding: 0.5em;
-  border-left: 5px solid #c4bfbc;
-  background: #f4f4f4;
+blockquote {
+  position: relative;
+  padding: 35px 15px 10px 15px;
+  box-sizing: border-box;
+  font-style: italic;
+  background: #fefefe;
+  color: #777777;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+  margin: 1em;
+}
+
+blockquote:before {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  content: "\f10d";
+  font-family: "Font Awesome 5 Free";
+  color: #ceac92;
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+blockquote p {
+  padding: 0;
+  margin: 7px 0;
+  line-height: 1.7;
 }
