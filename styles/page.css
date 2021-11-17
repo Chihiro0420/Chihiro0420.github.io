@@ -172,11 +172,18 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.25em;
+  padding: 1em 0 0 1em;
+}
+
+time {
+  font-size: 0.75em;
+  margin-bottom: 2em;
 }
 
 p {
   line-height: 1.5;
+  padding: 1em;
 }
 
 .l-wrapper-container {
@@ -234,4 +241,12 @@ blockquote p {
   padding: 0;
   margin: 7px 0;
   line-height: 1.7;
+}
+
+/* page: value */
+.h3-icon:before {
+  content: "\f111";
+  font-family: "Font Awesome 5 Free";
+  color: #ceac92;
+  font-size: 1em;
 }
