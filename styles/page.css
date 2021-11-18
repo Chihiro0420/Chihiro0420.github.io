@@ -179,7 +179,7 @@ h2 {
 
 h3 {
   font-size: 1.25em;
-  padding: 1em 0 0 1em;
+  padding: 16px 0 0 16px;
 }
 
 time {
@@ -260,4 +260,27 @@ blockquote p {
   font-family: "Font Awesome 5 Free";
   color: #ceac92;
   font-size: 1em;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.blog-date {
+  padding-left: 20px;
+}
+
+.blog-date .btn {
+  padding: 0.5em 0.5em;
+  color: #fff;
+  background-color: #333;
+  font-size: 0.75em;
+}
+.blog-date .btn:hover {
+  color: #fff;
+  background-color: #666;
+}
+.blog-datetime {
+  margin-left: 20px;
+  margin-bottom: -20px;
 }
