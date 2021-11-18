@@ -168,6 +168,12 @@ a {
 h1 {
   font-size: 2em;
 }
+/* Mobile CSS Rules */
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
 
 /* -------------------------------------
 Header
@@ -218,11 +224,36 @@ nav ul li a:hover::before,
 nav ul li a:hover::after {
   width: 50%;
 }
+
+@media screen and (max-width: 767px) {
+  .header-logo {
+    font-size: 32px;
+    padding: 0.75em 0;
+    display: block;
+  }
+
+  .header {
+    height: auto;
+    flex-direction: column;
+  }
+
+  nav ul li a {
+    padding: 16px 8px;
+    text-align: center;
+  }
+}
 /* -------------------------------------
 Main
 ------------------------------------- */
 .l-wrapper {
-  margin: 6em;
+  margin: 2em;
+}
+
+/* Mobile CSS Rules */
+@media screen and (max-width: 767px) {
+  .l-wrapper {
+    margin: 1em;
+  }
 }
 
 .primary-msg {
@@ -259,6 +290,9 @@ Main
   line-height: 1.5em;
 }
 
+/* -------------------------------------
+About me
+------------------------------------- */
 .content {
   max-width: 1000px;
   height: 698px;
@@ -277,6 +311,31 @@ Main
   position: absolute;
   top: 140px;
   right: 20px;
+  border: 5px solid #ceac92;
+}
+
+/* Mobile & Tablet CSS Rules */
+@media screen and (max-width: 1000px) {
+  .content {
+    height: auto;
+    position: static;
+    margin: 0;
+  }
+
+  .text {
+    max-width: 100%;
+    padding: 20px 60px 40px 60px;
+    position: static;
+  }
+
+  .text h2 {
+    margin-top: 0;
+  }
+  .img {
+    max-width: 100%;
+    position: static;
+    height: 50%;
+  }
 }
 
 /* -------------------------------------
