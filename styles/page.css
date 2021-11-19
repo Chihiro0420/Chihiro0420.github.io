@@ -166,8 +166,8 @@ a {
 h1 {
   font-size: 2em;
 }
-
 /* Mobile CSS Rules */
+
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 1.5em;
@@ -179,6 +179,8 @@ h2 {
 
 h3 {
   font-size: 1.25em;
+  line-height: 1.25em;
+  font-weight: bold;
   padding: 16px 0 0 16px;
 }
 
@@ -283,4 +285,38 @@ blockquote p {
 .blog-datetime {
   margin-left: 20px;
   margin-bottom: -20px;
+}
+/* Default flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex .img-blog {
+  width: 40%;
+  margin: 0;
+  padding: 1em 0 0 0;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+}
+
+.flex .flex-text {
+  width: 60%;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex .img-blog {
+    width: 100%;
+  }
+
+  .flex .flex-text {
+    width: 100%;
+  }
 }
