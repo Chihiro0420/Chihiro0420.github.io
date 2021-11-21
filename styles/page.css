@@ -292,6 +292,10 @@ blockquote p {
   justify-content: space-between;
 }
 
+.flex-right {
+  flex-direction: row-reverse;
+}
+
 .flex .img-blog {
   width: 40%;
   margin: 0;
