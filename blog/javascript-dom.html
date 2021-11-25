@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,17 +18,25 @@
     />
     <link rel="icon" href="../icon.ico" id="favicon" />
     <link rel="apple-touch-icon" sizes="180x180" href="../icon.png" />
+    <style>
+      .hero-img-html {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+      }
+    </style>
   </head>
 
   <body>
     <div class="l-header-wrapper">
       <header class="header">
         <h1>
-          <a href="../index.html" class="header-logo">My Blog</a>
+          <a href="../index.html" class="header-logo">JavaScript</a>
         </h1>
         <nav>
           <ul>
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="/index.html">Home</a></li>
             <li><a href="blog.html">Technical Blog</a></li>
             <li><a href="identity-values.html">Values</a></li>
             <li><a href="learning-plan.html">Learning Plan</a></li>
@@ -45,31 +53,40 @@
     <!-- main -->
     <main>
       <div class="l-wrapper">
-        <div class="l-wrapper-container">
-          <h1>Technical Blog</h1>
-        </div>
         <section class="l-wrapper-container">
-          <h2>HTML&CSS</h2>
-          <time datetime="2021-11-17" class="blog-datetime">November 17,2021</time>
-          <h3>Difference between Margin, Border, and Padding</h3>
-          <p class="blog-date">
-            <a href="/blog/html-css.html" class="btn">Read More</a>
+          <h1>JavaScript Fundamentals</h1>
+
+          <p>
+            <time datetime="2021-11-25">November 25,2021</time>
+          </p>
+          <img class="hero-img-html" src="../img/undraw_static_website_0107.png" alt="HTML" />
+        </section>
+        <section class="l-wrapper-container">
+          <h2>What is the difference between HTML and CSS?</h2>
+          <p>
+            A HTML file contains the structure of the page itself. It is kind of like the structure of the building.
+          </p>
+          <p>
+            A CSS file contains the styling of the page. It allows you to change styles such as colors, positioning
+            etc... It is kind of like the design of the building itself.
           </p>
         </section>
         <section class="l-wrapper-container">
-          <h2>Cultural Blog</h2>
-          <time datetime="2021-11-19" class="blog-datetime">November 19,2021</time>
-          <h3>What is EQ and IQ?</h3>
-          <p class="blog-date">
-            <a href="/blog/emotional-intelligence.html" class="btn">Read More</a>
+          <h2>JavaScript: Control flow and Loop</h2>
+          <p>
+            Control flow in JavaScript is how your computer runs code from top to bottom. It is similar to the step of
+            buying tickets by using ticketing machines. <br />
+            For instance, when you buy tickets by using the machine, you pick the ticket which you would like to buy and
+            then you insert money.<br />
+            If you put money more than ticketing cost, you will receive the changes and ticked otherwise you will get
+            the ticket.
           </p>
-        </section>
-        <section class="l-wrapper-container">
-          <h2>JavaScript</h2>
-          <time datetime="2021-11-25" class="blog-datetime">November 25,2021</time>
-          <h3>JavaScript Fundamentals</h3>
-          <p class="blog-date">
-            <a href="/blog/javascript-dom.html" class="btn"></a>
+          <p>
+            Loop is used in JavaScript to perform repeated tasks based on a condition. <br />
+            For instance, everyday you cook or buy food for your meals. It could be called "loop" in programming.
+            Firstly, when you feel hungry, you would thik if you have enough food at home or you have to buy food at
+            supermarket or take away shop. After having meal, you would not feel hungry anymore. (that's the ending the
+            food loop!)
           </p>
         </section>
       </div>
