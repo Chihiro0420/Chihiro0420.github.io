@@ -25,6 +25,17 @@
         margin: 0 auto;
         display: block;
       }
+      .is-active {
+        color: blue;
+        font-size: 2em;
+      }
+      p {
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+      }
     </style>
   </head>
 
@@ -89,11 +100,44 @@
             food loop!)
           </p>
         </section>
+        <section class="l-wrapper-container">
+          <h2>JavaScript: What is the DOM?</h2>
+          <p>
+            The DOM means the Document Object Model and is the data representation of the objects that comprise the
+            structure and content of a document on the web.
+          </p>
+          <h3>Sample</h3>
+          <p>If you click the below button, the text color will be changed. This is one of the DOM interaction.</p>
+          <p id="msg">Hello</p>
+          <button id="btn">Click here</button>
+        </section>
+        <section class="l-wrapper-container">
+          <h2>What is the difference between accessing data from arrays and objects?</h2>
+          <h3>Objects</h3>
+          <p>
+            Objects is everywhere in JavaScript.Objects are mutable data structure in javascript which is used to
+            represent a ‘Thing’. This could be anything like cars, plants, person, community etc. It stores the data in
+            key value pair and the key can be anything except for undefined. The keys are iterable and can be accessed
+            in any order.
+          </p>
+          <h3>Array</h3>
+          <p>Array can store a list of items or objects in a single variable.The data can be modified at any index.</p>
+        </section>
+        <section class="l-wrapper-container">
+          <h2>JavaScript: What is function? Why they are useful?</h2>
+          <p>
+            In JavaScript, a function allows you to define a block of code, give it a name and then execute it as many
+            times as you want. <br />
+            It is useful because you do not need to type out the same code multiple times. It is like you have your own
+            shortcut system.
+          </p>
+        </section>
       </div>
     </main>
 
     <footer>
       <p class="l-footer-copyright"><small>&copy; 2021 Chihiro Eibi</small></p>
     </footer>
+    <script src="blog.js"></script>
   </body>
 </html>
