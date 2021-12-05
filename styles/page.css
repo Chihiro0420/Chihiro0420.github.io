@@ -328,3 +328,18 @@ iframe {
   margin: 0 auto;
   display: block;
 }
+
+/* problem solving */
+ul.problemList {
+  padding-left: 3em;
+  list-style: disc;
+  line-height: 1.5;
+}
+
+.bg-beige {
+  background-color: cornsilk;
+}
+
+.problem {
+  width: 50%;
+}
