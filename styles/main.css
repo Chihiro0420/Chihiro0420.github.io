@@ -250,7 +250,7 @@ Main
 }
 
 /* Mobile CSS Rules */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .l-wrapper {
     margin: 1em;
   }
@@ -315,7 +315,7 @@ About me
 }
 
 /* Mobile & Tablet CSS Rules */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .content {
     height: auto;
     position: static;
